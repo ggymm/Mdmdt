@@ -7,7 +7,7 @@
  * License: Apache-2.0
  * ------------------------------------------------------------------------
 */
-@import url(./cover.css);
+@import url(./mdmdt/cover.css);
 :root {
   --bg-color: rgb(250, 250, 250);
   --bg-color2: rgb(237, 237, 239);
