@@ -9,37 +9,37 @@
 */
 @import url(./mdmdt/cover.css);
 :root {
-  --bg-color: #1b1b1f;
-  --bg-color2: rgb(40, 42, 50);
+  --bg-color: rgb(30, 31, 34);
+  --bg-color2: rgb(40, 44, 52);
 
-  --text-color: #d0d0d0;
-  --text-grey: #464b50;
-  --text-code: #bbc7fd;
+  --text-color: rgb(208, 208, 208);
+  --text-grey: rgb(70, 75, 80);
+  --text-code: rgb(187, 199, 253);
   --title-color: var(--text-color);
   --border-color: var(--text-grey);
 
-  --color-1: #3e69d7;
+  --color-1: rgb(62, 105, 215);
   --color-1-0-a: rgba(62, 105, 215, 0.3);
   --color-1-0-b: rgba(62, 105, 215, 0.12);
 
-  --color-2: #f59102;
+  --color-2: rgb(245, 145, 2);
   --color-2-0-a: rgba(245, 145, 2, 0.3);
   --color-2-0-b: rgba(245, 145, 2, 0.12);
   --color-2-0-c: rgba(245, 145, 2, 0.4);
 
-  --color-3: #03b736;
+  --color-3: rgb(3, 181, 53);
   --color-3-0-a: rgba(3, 183, 54, 0.3);
   --color-3-0-b: rgba(3, 183, 54, 0.12);
 
-  --color-4: #8250df;
+  --color-4: rgb(130, 80, 223);
   --color-4-0-a: rgba(130, 80, 223, 0.3);
   --color-4-0-b: rgba(130, 80, 223, 0.12);
 
-  --color-5: #e30f2e;
+  --color-5: rgb(227, 15, 46);
   --color-5-0-a: rgba(227, 15, 46, 0.3);
   --color-5-0-b: rgba(227, 15, 46, 0.12);
 
-  --md-char-color: #667c89ff;
+  --md-char-color: rgb(102, 124, 137);
   --meta-content-color: var(--md-char-color);
   --primary-color: var(--color-1);
   --primary-btn-border-color: var(--bg-color2);
@@ -1736,7 +1736,7 @@ body.typora-export {
 }
 
 .unibody-window #megamenu-menu-sidebar {
-  --bg-color: #1b1b1f;
+  --bg-color: rgb(27, 27, 31);
   --bg-color2: rgb(40, 42, 50);
   --border-color: rgb(60, 62, 70);
   overflow: hidden;

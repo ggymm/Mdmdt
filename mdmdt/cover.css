@@ -6,16 +6,40 @@ h3.md-focus:before,
 h4.md-focus:before, 
 h5.md-focus:before, 
 h6.md-focus:before {
-  line-height: inherit;
+  line-height: inherit !important;
 }
 
-.file-node-expanded > .file-node-content,
-.file-node-collapsed > .file-node-content {
-  padding-left: -15px;
+.os-windows #file-library-tree .file-node-content {
+  margin-bottom: 4px !important;
+  padding-right: 36px !important;
 }
-.file-node-expanded > .file-node-content > .file-node-open-state,
-.file-node-collapsed > .file-node-content > .file-node-open-state {
-  display: none;
+#file-library-tree .file-tree-node > .file-node-content {
+  margin-left: -8px !important;
+}
+#file-library-tree .file-node-content > .file-node-icon::after {
+  width: 18px !important;
+}
+#file-library-tree .active > .file-node-content > .file-node-icon::after {
+  width: 8px !important;
+}
+#file-library-tree .file-node-expanded > .file-node-content,
+#file-library-tree .file-node-collapsed > .file-node-content {
+  margin-left: 0 !important;
+}
+#file-library-tree .file-node-expanded > .file-node-content > .file-node-icon::after
+#file-library-tree .file-node-collapsed > .file-node-content > .file-node-icon::after {
+  width: 18px !important;
+}
+#file-library-tree .file-node-expanded > .file-node-content > .file-node-open-state,
+#file-library-tree .file-node-collapsed > .file-node-content > .file-node-open-state {
+  display: none !important;
+}
+#file-library-tree .file-library-file-node:hover .file-node-icon:after {
+  width: 8px !important;
+}
+
+pre {
+  line-height: 1.8 !important;
 }
 
 /**
